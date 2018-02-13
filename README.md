@@ -4,25 +4,25 @@ Hello!
 
 This is just a loose collection of "must-read" or "nice-to-read" documents to create common ground for code practices. Think of it as a poor man's [Thoughtbot Playbook](https://thoughtbot.com/playbook). Which is going to be our first resource:
 
-**The Thoughtbot Playbook**
+## The Thoughtbot Playbook
 
 [An high-level overview of app development.](https://thoughtbot.com/playbook)
 
 
-**The 12-factor App**
+## The 12-factor App
 
 [All IR projects should be 12 factor](https://12factor.net/). We should emphasize developer ergonomics and ease of deployment.
 
 
-**Code Review**
+## Code Review
 
-**If you read nothing else, please read this.**
+## If you read nothing else, please read this.**
 
 [Code review process & etiquette is extremely important](https://hypothes.is/blog/code-review-in-remote-teams/).
 It is one of the most critical growth channels for engineers, new or experienced.
 
 
-**Git workflows**
+## Git workflows
 
 I prefer the rebase flow, but it's likely we'll probably be working off of a vanilla merge or fork flow. Here is information about both.
 
@@ -31,7 +31,7 @@ I prefer the rebase flow, but it's likely we'll probably be working off of a van
 - [Configuring git with ssh](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 
-**How to write good code**
+## How to write good code
 
 Can be surprisingly difficult, even for experienced engineers. Some will tell you to read a classic Java volume called "Clean Code", which is a terrific book. [However, there's a fantastic, simplified javascript version that emphasizes clean code principles right on github.](https://github.com/ryanmcdermott/clean-code-javascript)
 
@@ -45,6 +45,6 @@ Some misc tips from me:
  - The clean code manual was written for OOP. Keep in mind JS is strongest when written in a terse, functional style. There was a significant controversy years ago that ES6 classes would lead JS engineers in the wrong direction with their code style. After seeing ES6 mature and its usage spread, I have to agree.
 
 
-**Style Guide**
+## Style Guide
 
 [We use the AirBnb style guide](https://github.com/airbnb/javascript). Would recommended actually reading through a bit of it - they provide explanations for their various rules. The explanations reveal an astounding attention to detail and care for craft that we should all emulate.
