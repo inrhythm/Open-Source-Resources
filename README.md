@@ -4,6 +4,7 @@ Hello!
 
 This is just a loose collection of "must-read" or "nice-to-read" documents to create common ground for code practices. Think of it as a poor man's [Thoughtbot Playbook](https://thoughtbot.com/playbook). Which is going to be our first resource:
 
+
 ## The Thoughtbot Playbook
 
 [An high-level overview of app development.](https://thoughtbot.com/playbook)
@@ -16,7 +17,7 @@ This is just a loose collection of "must-read" or "nice-to-read" documents to cr
 
 ## Code Review
 
-## If you read nothing else, please read this.**
+**If you read nothing else, please read this.**
 
 [Code review process & etiquette is extremely important](https://hypothes.is/blog/code-review-in-remote-teams/).
 It is one of the most critical growth channels for engineers, new or experienced.
@@ -31,6 +32,11 @@ I prefer the rebase flow, but it's likely we'll probably be working off of a van
 - [Configuring git with ssh](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 
+## Style Guide
+
+[We use the AirBnb style guide](https://github.com/airbnb/javascript). Would recommended actually reading through a bit of it - they provide explanations for the various rules. The explanations reveal an astounding attention to detail and care for craft that we should strive to emulate.
+
+
 ## How to write good code
 
 Can be surprisingly difficult, even for experienced engineers. Some will tell you to read a classic Java volume called "Clean Code", which is a terrific book. [However, there's a fantastic, simplified javascript version that emphasizes clean code principles right on github.](https://github.com/ryanmcdermott/clean-code-javascript)
@@ -43,8 +49,3 @@ Some misc tips from me:
  - Don't leave TODOs in the code, ever. Represent TODO items as tickets on the project kanban board.
  - Don't put console logs in your code...except inside your logger module. Think about logging systematically than random output.
  - The clean code manual was written for OOP. Keep in mind JS is strongest when written in a terse, functional style. There was a significant controversy years ago that ES6 classes would lead JS engineers in the wrong direction with their code style. After seeing ES6 mature and its usage spread, I have to agree.
-
-
-## Style Guide
-
-[We use the AirBnb style guide](https://github.com/airbnb/javascript). Would recommended actually reading through a bit of it - they provide explanations for their various rules. The explanations reveal an astounding attention to detail and care for craft that we should all emulate.
