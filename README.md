@@ -5,12 +5,10 @@ Hello!
 This is just a loose collection of "must-read" or "nice-to-read" documents to create common ground for code practices. Think of it as a poor man's [Thoughtbot Playbook](https://thoughtbot.com/playbook). Which is going to be our first resource:
 
 **The Thoughtbot Playbook**
-
-[An high-level overview of app development](https://thoughtbot.com/playbook)
+[An high-level overview of app development.](https://thoughtbot.com/playbook)
 
 **The 12-factor App**
-
-[All IR projects should be 12 factor.](https://12factor.net/). We should emphasize developer ergonomics and ease of deployment.
+[All IR projects should be 12 factor](https://12factor.net/). We should emphasize developer ergonomics and ease of deployment.
 
 **Code Review**
 
