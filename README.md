@@ -16,16 +16,19 @@ This is just a loose collection of "must-read" or "nice-to-read" documents to cr
 
 **Code Review**
 
-**If you read nothing else, please read this.** [Code review process & etiquette is extremely important. It is one of the most critical growth channels for engineers, new or experienced.](https://hypothes.is/blog/code-review-in-remote-teams/)
+**If you read nothing else, please read this.**
+
+[Code review process & etiquette is extremely important](https://hypothes.is/blog/code-review-in-remote-teams/).
+It is one of the most critical growth channels for engineers, new or experienced.
 
 
 **Git workflows**
 
 I prefer the rebase flow, but it's likely we'll probably be working off of a vanilla merge or fork flow. Here is information about both.
 
-[Overview of rebase workflow](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-[Forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
-[Configuring git with ssh](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+- [Overview of rebase workflow](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+- [Forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+- [Configuring git with ssh](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 
 **How to write good code**
@@ -38,8 +41,8 @@ Some misc tips from me:
  - Comments are apologies for not writing your code clearly enough. Use them wisely.
  - Don't leave commented out code in a master branch, ever.
  - Don't leave TODOs in the code, ever. Represent TODO items as tickets on the project kanban board.
- - Don't put console logs in your code...except inside your logger module. Think about logging logically systematically than random output.
- - The clean code manual was written for OOP. Keep in mind JS is strongest when written in a more functional style. Composition over inheritance, etc. There was a significant controversy years ago that ES6 classes would lead JS engineers in the wrong direction with their code style. After seeing ES6 mature and its usage spread, I have to agree.
+ - Don't put console logs in your code...except inside your logger module. Think about logging systematically than random output.
+ - The clean code manual was written for OOP. Keep in mind JS is strongest when written in a terse, functional style. There was a significant controversy years ago that ES6 classes would lead JS engineers in the wrong direction with their code style. After seeing ES6 mature and its usage spread, I have to agree.
 
 
 **Style Guide**
