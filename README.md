@@ -34,7 +34,7 @@ I prefer the rebase flow, but it's likely we'll probably be working off of a van
 
 ## Style Guide
 
-[We use the AirBnb style guide](https://github.com/airbnb/javascript). It is recommended to actually reading through a some of it - they provide explanations for the various rules which can be enlightening. The explanations reveal an astounding attention to detail and care for craft that we should strive to emulate.
+[We use the AirBnb style guide](https://github.com/airbnb/javascript). It is recommended to actually read through a some of it - they provide explanations for the various rules which can be enlightening. The explanations reveal an astounding attention to detail and care for craft that we should strive to emulate.
 
 
 ## How to write good code
