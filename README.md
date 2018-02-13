@@ -45,6 +45,7 @@ Some misc tips from me:
  - To become a greater javascript programmer, see if you can write code without using if or switch statements.
  - Emphasize pure functions over mutation. In fact, see if you can write code without ever using mutation or ever using a let statement.
  - Comments are apologies for not writing your code clearly enough. Use them wisely.
+ - Don't shy away from spreading things out and splitting modules into separate files. As a loose rule, a single file should never be longer than 200 lines. For hard mode, try 100 lines.
  - Don't leave commented out code in a master branch, ever.
  - Don't leave TODOs in the code, ever. Represent TODO items as tickets on the project kanban board.
  - Don't put console logs in your code...except inside your logger module. Think about logging systematically than random output.
