@@ -1,0 +1,19 @@
+{
+  "name": "inrhythm-open-source-resources",
+  "version": "1.0.0",
+  "description": "Hello!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inrhythm/Open-Source-Resources.git"
+  },
+  "author": "InRhythm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inrhythm/Open-Source-Resources/issues"
+  },
+  "homepage": "https://github.com/inrhythm/Open-Source-Resources#readme"
+}
