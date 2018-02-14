@@ -1,0 +1,31 @@
+{
+  "name": "inrhythm-open-source-resources",
+  "version": "1.0.0",
+  "description": "Hello!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:documentation": "alex",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inrhythm/Open-Source-Resources.git"
+  },
+  "author": "InRhythm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inrhythm/Open-Source-Resources/issues"
+  },
+  "homepage": "https://github.com/inrhythm/Open-Source-Resources#readme",
+  "dependencies": {
+    "alex": "^5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0"
+  },
+  "lint-staged": {
+    "*.md": ["alex", "git add"]
+  }
+}
