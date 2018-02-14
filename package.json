@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:documentation": "alex"
+    "lint:documentation": "alex",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "homepage": "https://github.com/inrhythm/Open-Source-Resources#readme",
   "dependencies": {
     "alex": "^5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0"
+  },
+  "lint-staged": {
+    "*.md": ["alex", "git add"]
   }
 }
